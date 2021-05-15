@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container .bg {
+  background-color: #E9ECEF;
+}
+
+.container li {
+  border: 1px solid #000;
+  border-radius: 30px;
+  margin: 0 5px;
+}
+
+.container li:hover {
+  background-color: fuchsia;
+  border: none;
+}
+
+.container li a {
+  color: #000;
+}
+
+.container li a:hover {
+  color: #fff;
+}
+
+.container .active {
+  background-color: fuchsia;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.btn {
+  background-color: fuchsia;
+  border-radius: 30px;
+  color: #fff;
+  border: none;
+  padding: 3px 20px;
+}
+
+.btn2 {
+  border: none;
+  padding: 5px 0;
+  border-radius: 5px;
+}
+
+footer a :nth-child(6) {
+  float: right;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.menubtn {
+  background: none;
+}
+
+.menubtn:hover {
+  background-color: #aaa5a5;
+}
+
+.card-img {
+  position: relative;
+}
+
+.card-img .img-hov {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+}
+
+.card-img .img-hov:hover {
+  opacity: 1;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.card-img .img-hov .iconka {
+  margin: 0 10px;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.card-img .col-md-4 .card .xarita {
+  position: relative;
+}
+
+.card-img .col-md-4 .card .lokatsiya {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  bottom: -15px;
+  right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  header .col-md-3 i {
+    display: none;
+  }
+  .jumbotron {
+    display: none;
+  }
+  a, h5, p {
+    font-size: 12px;
+  }
+  .nav li {
+    display: block;
+  }
+  .dropdown {
+    float: right;
+  }
+  footer ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{ 
+       .bg{
+           background-color: #E9ECEF;
+       }
+       
+         
+       
+    
+    li{
+        border: 1px solid #000;
+        border-radius: 30px;
+        margin: 0 5px;
+        &:hover{
+            background-color: fuchsia;
+            border: none;
+        }
+        a{
+            color: #000;
+            &:hover{
+                color: #fff;
+            }
+        }
+    }
+    .active{
+        background-color: fuchsia;
+        border-radius: 30px;
+        color: #fff;
+        
+      
+    }
+    }
+
+   .btn{
+       background-color: fuchsia;
+       border-radius: 30px;
+       color: #fff;
+       border: none;
+       padding: 3px 20px;
+   }
+  
+
+   .btn2{
+       border: none;
+       padding: 5px 0;
+       border-radius: 5px;
+   }
+   footer{
+      a{
+          :nth-child(6){
+              float: right;
+          }
+      }
+      ul{
+          display: flex;
+        flex-wrap: wrap;
+      }
+      
+   }
+.menubtn{
+    background: none;
+    &:hover{
+        background-color: rgb(170, 165, 165);
+    }
+}
+    .card-img{
+        position: relative;
+      
+        .img-hov{
+           position: absolute;
+           left: 0;
+           top: 0;
+           width: 100%;
+           height: 100%;
+           z-index: 1;
+           opacity: 0;
+           &:hover{
+               opacity: 1;
+               transition-duration: 1s;
+           }
+        .iconka{
+            margin: 0 10px;
+            width: 60px;
+            height: 60px;
+            background-color: #fff;
+            border-radius: 50%;
+          
+
+        }
+     }
+    
+  
+   .col-md-4{
+       .card{
+           .xarita{
+               position: relative;
+            
+           }
+           .lokatsiya{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: red;
+            position: absolute;
+            bottom: -15px;
+            right: 20px;
+        }
+       }
+   }
+}
+
+ @media screen and (max-width: 600px){
+    header{
+        .col-md-3{
+             i{
+                 display: none;
+             }
+        }
+    }
+    .jumbotron{
+        display: none;
+    }
+    a , h5 , p{
+        font-size: 12px;
+    }
+    .nav{
+        li{
+            display: block;
+        }
+    }
+   .dropdown{
+       float: right;
+   }
+   
+   footer{
+       ul{
+           flex-direction: column;
+       }
+   }
+  
+}
